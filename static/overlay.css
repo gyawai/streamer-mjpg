@@ -1,0 +1,119 @@
+body {
+    background: #444;
+}
+
+@keyframes blink {
+    0% { opacity: 0.6; }
+    5% { opacity: 1.0; }
+    10% { opacity: 0.6; }
+    15% { opacity: 1.0; }
+    20% { opacity: 0.6; }
+    25% { opacity: 1.0; }
+    30% { opacity: 0.6; }
+    35% { opacity: 1.0; }
+    40% { opacity: 0.6; }
+    45% { opacity: 1.0; }
+    50% { opacity: 0.6; }
+    55% { opacity: 1.0; }
+    60% { opacity: 0.6; }
+    65% { opacity: 1.0; }
+    70% { opacity: 0.6; }
+    75% { opacity: 1.0; }
+    80% { opacity: 0.6; }
+    85% { opacity: 1.0; }
+    90% { opacity: 0.6; }
+    95% { opacity: 1.0; }
+    100% { opacity: 1.0; }
+}
+
+#msg-div {
+    padding: 20px;
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    font-family: monospace;
+    font-size: 30px;
+    opacity: 0.8;
+    color: #00ff00;
+    background: #4444447f;
+}
+
+#date-div {
+    position: absolute;
+    top: 10px;
+    left: 480px;
+    font-family: monospace;
+    font-size: 20px;
+    opacity: 0.8;
+    color: #00ff00;
+    background: #4444447f;
+}
+
+#info-pane {
+    padding: 0px 10px 0px 10px;
+    position: absolute;
+    left: 10px;
+    font-family: monospace;
+    font-size: 20px;
+    opacity: 0.8;
+    color: #00ff00;
+    background: #4444447f;
+    line-height: 35px;
+    text-align: right;
+}
+
+#depth-div {
+//    top: 10px;
+}
+
+#time-div {
+//    top: 30px;
+}
+
+#temp-div {
+//    top: 50px;
+}
+
+#overlay-div {
+    animation: blink 0.5s linear infinite;
+
+    position: absolute;
+    top: 320px;
+    left: 0px;
+    text.color0 {
+	fill: #44ff44;
+    }
+    .data-line.color0, text.color0 {
+	stroke: #44ff44;
+    }
+    .data-circle.color0 {
+	fill: #44ff44;
+	stroke: #44ff44;
+	stroke-width: 0;
+    }
+    
+    .x.axis {
+	line,path,text {
+            stroke: #44ff44;
+            fill: none;
+	}
+    }
+    .x.label {
+        stroke: #44ff44;
+        fill: #44ff44;
+    }
+    .y.axis {
+	line,path,text {
+            stroke: #44ff44;
+            fill: none;
+	}
+    }
+    .y.label {
+        stroke: #44ff44;
+        fill: #44ff44;
+    }
+    .type0 {
+	fill: none;
+	stroke-width: 2;
+    }
+}

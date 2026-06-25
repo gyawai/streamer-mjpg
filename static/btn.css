@@ -1,0 +1,81 @@
+#left-btn,#right-btn {
+    z-index: 999;
+    position: absolute;
+    top: 350px;
+    font-family: monospace;
+    font-size: 40px;
+    opacity: 0.8;
+    color: #ffffff;
+    background: #4444447f;
+}
+
+#left-btn {
+    left: 515px;
+}
+
+#right-btn {
+    left: 605px;
+}
+
+#up-btn,#down-btn {
+    z-index: 999;
+    position: absolute;
+    left: 557px;
+    font-family: monospace;
+    font-size: 40px;
+    opacity: 0.8;
+    color: #ffffff;
+    background: #4444447f;
+}
+
+#up-btn {
+    top: 270px;
+}
+
+#down-btn {
+    top: 420px;
+}
+
+#zoomin-btn,#zoomout-btn {
+    z-index: 999;
+    position: absolute;
+    left: 20px;
+    font-family: monospace;
+    font-size: 40px;
+    opacity: 0.8;
+    color: #ffffff;
+    background: #4444447f;
+}
+
+#zoomin-btn {
+    top: 250px;
+}
+
+#zoomout-btn {
+    top: 150px;
+}
+
+#rst-btn {
+    z-index: 999;
+    position: absolute;
+    top: 50px;
+    left: 550px;
+    font-family: monospace;
+    font-size: 40px;
+    opacity: 0.8;
+    color: #ffff44;
+    background: #4444447f;
+}
+
+#bye-btn {
+    z-index: 999;
+    position: absolute;
+    top: 50px;
+    left: 600px;
+    font-family: monospace;
+    font-size: 40px;
+    opacity: 0.8;
+    color: #ff4444;
+    background: #4444447f;
+}
+

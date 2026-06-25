@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>Video capture &amp; stream with OpenCV</title>
+    <link rel="stylesheet" href="/static/btn.css">
+    <link rel="stylesheet" href="/static/overlay.css">
+  </head>
+
+  <body>
+    <div id=date-div>Sep 24 2024</div>
+    <div id=info-pane>
+      <div class=info id=depth-div>96m</div>
+      <div class=info id=time-div>3'08''</div>
+      <div class=info id=temp-div>28.5C</div>
+    </div>
+    <input id="left-btn" type="button" value="&lt;">
+    <input id="right-btn" type="button" value="&gt;">
+    <input id="up-btn" type="button" value="^">
+    <input id="down-btn" type="button" value="v">
+    <input id="zoomin-btn" type="button" value="+">
+    <input id="zoomout-btn" type="button" value="-">
+    <input id="rst-btn" type="button" value="0">
+    <input id="bye-btn" type="button" value="x">
+    <div id="overlay-div"></div>
+    <img src="{{streamer}}/?action=stream" />
+    <script src="/static/btn.js"></script>
+    <script src="/static/d3.min.js"></script>
+    <script src="/static/chart.js"></script>
+    <script src="/static/time-chart.js"></script>
+    <script src="/static/overlay.js"></script>
+  </body>
+</html>

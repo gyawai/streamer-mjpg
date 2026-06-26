@@ -1,6 +1,8 @@
 <html>
   <head>
-    <title>Video capture &amp; stream with OpenCV</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video capture &amp; stream with mjpg-streamer</title>
     <link rel="stylesheet" href="/static/btn.css">
     <link rel="stylesheet" href="/static/overlay.css">
   </head>
@@ -21,7 +23,7 @@
     <input id="rst-btn" type="button" value="0">
     <input id="bye-btn" type="button" value="x">
     <div id="overlay-div"></div>
-    <img src="{{streamer}}/?action=stream" />
+    <img id="stream" src="{{streamer}}/?action=stream" />
     <script src="/static/btn.js"></script>
     <script src="/static/d3.min.js"></script>
     <script src="/static/chart.js"></script>
